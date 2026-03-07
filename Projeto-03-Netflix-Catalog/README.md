@@ -46,10 +46,11 @@ Essas funcionalidades são implementadas através de funções serverless expost
 
 ```
 src/
- ├── SaveMovieFunction
- ├── ListMoviesFunction
- ├── GetMovieFunction
- └── UploadMovieFunction
+ ├── PostDatabase
+ ├── PostDataStorage
+ ├── GetMovieDetail
+ └── GetAllMovies
+ └── dio-netflix.sln
 ```
 
 Cada função representa uma operação da API responsável por interagir com os serviços da Azure.
